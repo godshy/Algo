@@ -17,6 +17,6 @@ def reverseArray(a):
 
 
 arr_count = int(input().strip())
-arr = list(map(int, input().rstrip().split()))
+arr = list(map(int, input().rstrip().split()))  # handile a series of inputs, make it int type using map, delete whitespace and insert into a list
 res = reverseArray(arr)
 print(res)
